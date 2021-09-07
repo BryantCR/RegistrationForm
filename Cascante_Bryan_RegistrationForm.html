@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>
+            Registration Form by Bryan
+        </title>
+    </head>
+    <body>
+        <h1>
+            Registration Form
+        </h1>
+        <div>
+            <form>
+                <div>
+                    <label for="firstName">
+                        First Name: *
+                    </label>
+                    <input type="text" id="firstName" name="firstName"/>
+                </div>
+                <div>
+                    <label for="lastName">
+                        Last Name: *
+                    </label>
+                    <input type="text" id="lastName" name="lastName"/>
+                </div>
+                <div>
+                    <label for="emailAddress">
+                        Email Address: *
+                    </label>
+                    <input type="email" id="emailAddress" name="emailAddress"/>
+                </div>
+                <div>
+                    <label for="userPassword">
+                        Password: *
+                    </label>
+                    <input type="password" name="userPassword" id="userPassword" />
+                </div>
+                <div>
+                    <label for="confirmPassword">
+                        Confirm Password: *
+                    </label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" />
+                </div>
+                <div>
+                    <label for="date">
+                        Birthday: 
+                    </label>
+                    <input type="date">
+                </div>
+                <div>
+                    Gender Identify:
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">
+                        Male
+                    </label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">
+                        Female
+                    </label>
+                    <input type="radio" name="gender" id="non-binary" value="non-binary">
+                    <label for="non-binary">
+                        Non-binary
+                    </label>
+                    <input type="radio" name="gender" id="notAnswer" value="notAnswer">
+                    <label for="notAnswer">
+                        I prefer not to answer
+                    </label>
+                </div>
+                <div>
+                    <label for="comment">
+                        A short description about myself
+                    </label>
+                </div>
+                <div>
+                    <textarea id="comment" name="comment">
+                        
+                    </textarea>
+                </div>
+                <div>
+                    <label for="language">
+                        Favorite Language
+                    </label>
+                    <select id="language">
+                        <option value="0">
+                            Please select a language
+                        </option>
+                        <option value="JS">
+                            Javascript
+                        </option>
+                        <option value="C">
+                            C++
+                        </option>
+                        <option value="PT">
+                            Python
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    <input type="checkbox" name="receiveUpdates" id="receiveUpdates" />
+                <label for="receiveUpdates">
+                    Yes, I would like to receive periodic email updates
+                </label>
+                </div>
+                <div>
+                    <input type="submit" value="Create Account"/>
+                </div>
+                <div>
+                    <label>
+                        * Indicates a required field
+                    </label>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
